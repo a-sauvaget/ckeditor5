@@ -25,8 +25,8 @@ import List from '@ckeditor/ckeditor5-list/src/list.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
-import Table from '@ckeditor/ckeditor5-table/src/table.js';
-import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
+/* import Table from '@ckeditor/ckeditor5-table/src/table.js';
+import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js'; */
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
@@ -56,8 +56,8 @@ Editor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
-	Table,
-	TableToolbar,
+/* 	Table,
+	TableToolbar, */
 	TextTransformation,
 	WordCount
 ];
@@ -92,13 +92,13 @@ Editor.defaultConfig = {
 			'imageStyle:side'
 		]
 	},
-	table: {
+/* 	table: {
 		contentToolbar: [
 			'tableColumn',
 			'tableRow',
 			'mergeTableCells'
 		]
-	},
+	}, */
 	fontColor: {
 		colors: [
 			{

@@ -1,10 +1,10 @@
 {
-  "name": "ckeditor5-custom-build",
+  "name": "ckeditor5-custom-build-novabuild",
   "author": "CKSource",
-  "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.1",
+  "description": "A custom CKEditor 5 build for ABC-Plateforme.",
+  "version": "1.0.0",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "private": false,
   "main": "./build/ckeditor.js",
   "devDependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^31.0.0",
