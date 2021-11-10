@@ -102,6 +102,10 @@ Editor.defaultConfig = {
 	fontColor: {
 		colors: [
 			{
+				color: 'hsl(0, 0%, 0%)',
+				label: 'Black'
+			},
+			{
 				color: 'hsl(0, 0%, 42%)',
 				label: 'Grey'
 			},
@@ -111,7 +115,7 @@ Editor.defaultConfig = {
 			},
 			{
 				color: 'hsl(346, 60%, 66%)',
-				label: 'Pink'
+				label: 'Rose'
 			},
 			{
 				color: 'hsl(56, 100%, 50%)',
