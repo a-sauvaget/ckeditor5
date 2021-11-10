@@ -2,7 +2,7 @@
   "name": "ckeditor5-custom-build-novabuild",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build for ABC-Plateforme.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "main": "./build/ckeditor.js",
