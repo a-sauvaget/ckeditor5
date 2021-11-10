@@ -4,6 +4,7 @@
 - Guide suivi: https://blowstack.com/blog/create-ckeditor-5-custom-build
 - Dépôt github: https://github.com/a-sauvaget/ckeditor5
 - Package NPM: https://www.npmjs.com/package/@a-sauvaget/ckeditor5-custom-build
+- Doc officiel: https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html
 
 ## Mettre à jour le package ##
 
