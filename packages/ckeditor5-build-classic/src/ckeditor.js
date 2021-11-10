@@ -20,6 +20,8 @@ import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
+import Table from '@ckeditor/ckeditor5-table/src/table';
+import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 
@@ -43,6 +45,8 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	TextTransformation,
+	Table,
+	TableToolbar
 ];
 
 // Editor configuration.
@@ -61,10 +65,14 @@ ClassicEditor.defaultConfig = {
 			'indent',
 			'|',
 			'ImageInsert',
+			'insertTable',
 			'|',
 			'undo',
 			'redo',
 		],
+		table: {
+            contentToolbar: [ 'tableColumn', 'tableRow', 'mergeTableCells' ]
+        }
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'fr',
